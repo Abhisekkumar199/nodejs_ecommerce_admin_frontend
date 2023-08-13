@@ -1,0 +1,30 @@
+<nav id="sidebar" class="sidebar js-sidebar" *ngIf="sidebar.visible">
+  <div class="sidebar-content js-simplebar">
+    <a class="sidebar-brand" href="index.html">
+      <span class="align-middle">AdminKit</span>
+    </a>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-header">
+        Pages
+      </li>
+
+      <li class="sidebar-item active">
+        <a class="sidebar-link" routerLink="/dashboard">
+          <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+        </a>
+      </li>
+
+      <li class="sidebar-item">
+        <a class="sidebar-link" routerLink="/users">
+          <i class="align-middle" data-feather="user"></i> <span class="align-middle">Users</span>
+        </a>
+      </li>
+      <li class="sidebar-item">
+        <a class="sidebar-link" routerLink="/enquiries">
+          <i class="align-middle" data-feather="user"></i> <span class="align-middle">Enquiry</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
